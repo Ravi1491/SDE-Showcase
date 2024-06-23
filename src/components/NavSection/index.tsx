@@ -3,8 +3,8 @@ import React from "react";
 
 const NavSection = () => {
   return (
-    <div className="flex justify-between pt-6">
-      <div className="flex">
+    <div className="flex justify-between pt-10">
+      <div className="flex gap-2 items-center">
         <Logo />
         <span>Ravi</span>
       </div>
@@ -19,7 +19,7 @@ const NavSection = () => {
         </div>
         <div>
           <span>#</span>
-          <span>contacts</span>
+          <span>projects</span>
         </div>
       </div>
     </div>

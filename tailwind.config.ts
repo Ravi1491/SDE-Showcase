@@ -22,6 +22,9 @@ const config: Config = {
         background: "#282C33",
         white: "#FFFFFF",
       },
+      fontSize: {
+        "4.5xl": ["40px", { lineHeight: "50px" }],
+      },
     },
   },
   plugins: [],

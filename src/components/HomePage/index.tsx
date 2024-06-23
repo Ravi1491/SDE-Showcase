@@ -1,11 +1,13 @@
 import React from "react";
 import NavSection from "../NavSection";
+import TopSection from "../TopSection";
 
 const HomePageComponents = () => {
   return (
     <div className="min-h-screen min-w-screen">
-      <div className="flex flex-col w-[1024px] m-auto h-12">
+      <div className="flex flex-col w-[1024px] m-auto h-12 gap-16">
         <NavSection />
+        <TopSection />
       </div>
     </div>
   );
