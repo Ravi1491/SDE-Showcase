@@ -13,6 +13,15 @@ const config: Config = {
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
+      fontFamily: {
+        firacode: ["Fira Code", "monospace"],
+      },
+      colors: {
+        primary: "#C778DD",
+        gray: "#ABB2BF",
+        background: "#282C33",
+        white: "#FFFFFF",
+      },
     },
   },
   plugins: [],
