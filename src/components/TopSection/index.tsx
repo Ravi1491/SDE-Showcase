@@ -8,8 +8,8 @@ import ProfileCircle from "@/assets/icons/profileCircle";
 const TopSection = () => {
   return (
     <div className="flex w-full items-center">
-      <div className="flex flex-col gap-8 py-8 w-[537px]">
-        <div className="font-semibold text-3xl">
+      <div className="flex flex-col gap-8 py-8 w-7/12">
+        <div className="font-semibold w-11/12 text-3xl">
           Ravi is a <span className="text-primary">software developer</span> and
           <span className="text-primary"> back-end developer</span>
         </div>
