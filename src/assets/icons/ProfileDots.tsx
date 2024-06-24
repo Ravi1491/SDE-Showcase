@@ -1,4 +1,4 @@
-function ProfileCircle(props: React.SVGProps<SVGSVGElement>) {
+function ProfileDots(props: React.SVGProps<SVGSVGElement>) {
   return (
     <svg
       width={84}
@@ -37,4 +37,4 @@ function ProfileCircle(props: React.SVGProps<SVGSVGElement>) {
   );
 }
 
-export default ProfileCircle;
+export default ProfileDots;

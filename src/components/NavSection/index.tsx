@@ -1,4 +1,4 @@
-import Logo from "@/assets/icons/logo";
+import Logo from "@/assets/icons/Logo";
 import React from "react";
 
 const NavSection = () => {

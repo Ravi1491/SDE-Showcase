@@ -1,4 +1,4 @@
-function ProfileBackground(props: React.SVGProps<SVGSVGElement>) {
+function ProfileBackgroundGrid(props: React.SVGProps<SVGSVGElement>) {
   return (
     <svg
       width={156}
@@ -45,4 +45,4 @@ function ProfileBackground(props: React.SVGProps<SVGSVGElement>) {
   );
 }
 
-export default ProfileBackground;
+export default ProfileBackgroundGrid;

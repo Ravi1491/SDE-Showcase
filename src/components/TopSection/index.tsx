@@ -1,9 +1,9 @@
 import Image from "next/image";
 import React from "react";
 
-import profile from "@/assets/illustrations/Image.svg";
-import ProfileBackground from "@/assets/icons/profileBackground";
-import ProfileCircle from "@/assets/icons/profileCircle";
+import homeTopStoryProfile from "@/assets/illustrations/HomeTopStoryProfie.svg";
+import ProfileBackgroundGrid from "@/assets/icons/ProfileBackgroundGrid";
+import ProfileDots from "@/assets/icons/ProfileDots";
 
 const TopSection = () => {
   return (
@@ -25,12 +25,12 @@ const TopSection = () => {
       <div className="flex flex-col relative">
         <div className="border-b border-primary relative">
           <div className="absolute inset-10 z-0">
-            <ProfileBackground height="195px" />
+            <ProfileBackgroundGrid height="195px" />
           </div>
           <div className="relative z-10">
-            <Image src={profile} alt="Profile Image" />
+            <Image src={homeTopStoryProfile} alt="Profile Image" />
             <div className="absolute z-20 bottom-20 right-20 transform translate-x-1/2 translate-y-1/2">
-              <ProfileCircle />
+              <ProfileDots />
             </div>
           </div>
         </div>
