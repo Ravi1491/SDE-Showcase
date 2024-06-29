@@ -13,7 +13,7 @@ const TopSection = () => {
           Ravi is a <span className="text-primary">software developer</span> and
           <span className="text-primary"> back-end developer</span>
         </div>
-        <div className="text-gray w-[463px]">
+        <div className="text-gray-medium-5 w-[463px]">
           He crafts responsive websites where technologies meet creativity
         </div>
         <div>
@@ -35,7 +35,7 @@ const TopSection = () => {
           </div>
         </div>
         <div className="flex justify-center items-center w-full">
-          <div className="text-gray border p-1 flex gap-2 justify-center items-center">
+          <div className="text-gray-medium-5 border p-1 flex gap-2 justify-center items-center">
             <div className="w-4 h-4 border border-primary"></div>
             <span>Open for new opportunities</span>
           </div>

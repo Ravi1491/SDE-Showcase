@@ -2,6 +2,7 @@ import React from "react";
 import NavSection from "../NavSection";
 import TopSection from "../TopSection";
 import QuoteSection from "../QuoteSection";
+import ProjectSection from "../ProjectSection";
 
 const HomePageComponents = () => {
   return (
@@ -10,6 +11,7 @@ const HomePageComponents = () => {
         <NavSection />
         <TopSection />
         <QuoteSection />
+        <ProjectSection />
       </div>
     </div>
   );
